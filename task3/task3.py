@@ -16,9 +16,9 @@ for literature in file_list:
         matrix_symbols[literature[1]] = [[matrix_symbols[literature[1]][i - 97][j - 97] / lenght for i in range(97, 123)] for j in range(97, 123)]
         #print(matrix_symbols[literature[1]])
 
-ind_closses_match = 3
 first_sum_diff =  sum([sum([abs(matrix_symbols[0][j - 97][i - 97] - matrix_symbols[2][j - 97][i - 97]) for i in range(97, 123)]) for j in range(97, 123)])
 second_sum_diff = sum([sum([abs(matrix_symbols[1][j - 97][i - 97] - matrix_symbols[2][j - 97][i - 97]) for i in range(97, 123)]) for j in range(97, 123)])
+print(first_sum_diff - second_sum_diff)
 if first_sum_diff > second_sum_diff:
     print(author_list[0])
 else:
