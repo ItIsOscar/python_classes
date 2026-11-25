@@ -25,8 +25,9 @@
     <Compile Include="Second_task.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="firstAuthor.txt" />
-    <Content Include="secondAuthor.txt" />
+    <Content Include="first_literature.txt" />
+    <Content Include="second_literature.txt" />
+    <Content Include="third_literature.txt" />
     <Content Include="Достоевский Федор. Том 5. Преступление и наказание - royallib.com.txt" />
     <Content Include="Толстой Лев. Повести и рассказы - royallib.com.txt" />
   </ItemGroup>
